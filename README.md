@@ -7,6 +7,7 @@ def calculate_discount(price, discount_percent):
     :param discount_percent: Discount percentage to be applied.
     :return: Final price after applying the discount, or original price if discount is below 20%.
     """
+    
     if discount_percent >= 20:
         return price - (price * discount_percent / 100)
     return price
